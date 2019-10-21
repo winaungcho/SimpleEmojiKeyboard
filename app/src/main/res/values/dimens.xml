@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<dimen name="activity_vertical_margin">5sp</dimen>
+    <dimen name="key_height">52dip</dimen>
+	<dimen name="keyview_height">210dip</dimen>
+</resources>
