@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/scrolltab"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/colorDarkGray"
+	android:visibility="gone" 
+>
+	<ImageButton
+		android:id="@+id/changekeyboard"
+		android:src="@drawable/sym_keyboard_done"
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:padding="4px"
+		android:layout_marginTop="5dp"
+		android:layout_marginRight="5dp"
+		android:layout_marginBottom="5dp"
+		android:layout_alignParentLeft="true"
+	/>
+	<ImageButton
+		android:id="@+id/delete"
+		android:layout_width="48dp"
+		android:layout_height="48dp"
+		android:padding="4px"
+		android:layout_marginTop="5dp"
+		android:layout_marginRight="5dp"
+		android:layout_marginBottom="5dp"
+
+		android:layout_alignParentRight="true"
+		android:src="@drawable/sym_keyboard_delete"
+	/>
+	<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/changekeyboard"
+		android:layout_toLeftOf="@+id/delete"
+		android:fillViewport="true"
+	>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="horizontal" android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginTop="2dp"
+		>
+			<ImageButton
+				android:id="@+id/emoji1"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:padding="4px"
+				android:textSize="34dp"
+				android:background="@drawable/emojiselector"
+				android:src="@drawable/ic_smile"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginBottom="5dp"
+				android:scaleType="fitXY"
+			/>
+			<ImageButton
+				android:id="@+id/emoji2"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:padding="4px"
+				android:textSize="34dp"
+				android:background="@drawable/emojiselector"
+				android:src="@drawable/ic_lip"
+				android:layout_marginTop="5dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginBottom="5dp"
+				android:scaleType="fitXY"
+			/>
+			
+		</LinearLayout>
+	</HorizontalScrollView>
+</RelativeLayout>
+

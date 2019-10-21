@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/mainview"
+>
+
+	<include layout="@layout/scrolltab"/>
+	
+	<com.structsoftlab.mykeyboard.MyUniKeyboardView
+		android:id="@+id/keyboard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:keyTextColor="#FFFFFF"
+		android:keyBackground="@drawable/key_background"
+		android:padding="4px"
+		android:keyTextSize="22sp"
+		android:popupLayout="@layout/popup_layout"
+		android:keyPreviewLayout ="@layout/preview"
+	/>
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/keyview_height"
+		android:fillViewport="false"
+		android:id="@+id/emojiscroll"
+		android:visibility="gone"
+		>
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="match_parent"
+			android:layout_height="match_parent">
+	<com.structsoftlab.mykeyboard.MyUniKeyboardView
+		android:id="@+id/emojikeyboard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:keyTextColor="#FFFFFF"
+		android:background="@null"
+		android:cacheColorHint="@null"
+		android:padding="1dp"
+		android:labelTextSize="30dp"
+		android:keyPreviewLayout ="@layout/preview"
+	/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
+
