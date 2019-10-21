@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="2px"
+    android:verticalGap="0px"
+    android:keyHeight="@dimen/key_height"
+>
+	<Row>
+		<Key android:codes="0x2600" android:keyLabel="\u2600" android:keyEdgeFlags="left"/>
+		<Key android:codes="0x2601" android:keyLabel="\u2601"/>
+		<Key android:codes="0x2602" android:keyLabel="\u2602"/>
+		<Key android:codes="0x2603" android:keyLabel="\u2603"/>
+		<Key android:codes="0x2604" android:keyLabel="\u2604"/>
+		<Key android:codes="0x2605" android:keyLabel="\u2605"/>
+		<Key android:codes="0x2606" android:keyLabel="\u2606"/>
+		<Key android:codes="0x2607" android:keyLabel="\u2607"/>
+		<Key android:codes="0x2608" android:keyLabel="\u2608"/>
+		<Key android:codes="0x2609" android:keyLabel="\u2609" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="0x260A" android:keyLabel="\u260A" android:keyEdgeFlags="left"/>
+		<Key android:codes="0x260B" android:keyLabel="\u260B"/>
+		<Key android:codes="0x260C" android:keyLabel="\u260C"/>
+		<Key android:codes="0x260D" android:keyLabel="\u260D"/>
+		<Key android:codes="0x260E" android:keyLabel="\u260E"/>
+		<Key android:codes="0x260F" android:keyLabel="\u260F"/>
+		<Key android:codes="0x2610" android:keyLabel="\u2610"/>
+		<Key android:codes="0x2611" android:keyLabel="\u2611"/>
+		<Key android:codes="0x2612" android:keyLabel="\u2612"/>
+		<Key android:codes="0x2613" android:keyLabel="\u2613" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="0x2616" android:keyLabel="\u2616" android:keyEdgeFlags="left"/>
+		<Key android:codes="0x2617" android:keyLabel="\u2617"/>
+		<Key android:codes="0x2618" android:keyLabel="\u2618"/>
+		<Key android:codes="0x2619" android:keyLabel="\u2619"/>
+		<Key android:codes="0x261A" android:keyLabel="\u261A"/>
+		<Key android:codes="0x261B" android:keyLabel="\u261B"/>
+		<Key android:codes="0x261C" android:keyLabel="\u261C"/>
+		<Key android:codes="0x261D" android:keyLabel="\u261D"/>
+		<Key android:codes="0x261E" android:keyLabel="\u261E"/>
+		<Key android:codes="0x261F" android:keyLabel="\u261F" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="0x2620" android:keyLabel="\u2620" android:keyEdgeFlags="left"/>
+		<Key android:codes="0x2621" android:keyLabel="\u2621"/>
+		<Key android:codes="0x2622" android:keyLabel="\u2622"/>
+		<Key android:codes="0x2623" android:keyLabel="\u2623"/>
+		<Key android:codes="0x2624" android:keyLabel="\u2624"/>
+		<Key android:codes="0x2625" android:keyLabel="\u2625"/>
+		<Key android:codes="0x2626" android:keyLabel="\u2626"/>
+		<Key android:codes="0x2627" android:keyLabel="\u2627"/>
+		<Key android:codes="0x2628" android:keyLabel="\u2628"/>
+		<Key android:codes="0x2629" android:keyLabel="\u2629" android:keyEdgeFlags="right" />
+	</Row>
+	<Row>
+		<Key android:codes="0x262A" android:keyLabel="\u262A" android:keyEdgeFlags="left"/>
+		<Key android:codes="0x262b" android:keyLabel="\u262b"/>
+		<Key android:codes="0x262c" android:keyLabel="\u262c"/>
+		<Key android:codes="0x262d" android:keyLabel="\u262d"/>
+		<Key android:codes="0x262e" android:keyLabel="\u262e"/>
+		<Key android:codes="0x262f" android:keyLabel="\u262f"/>
+		<Key android:codes="0x2638" android:keyLabel="\u2638"/>
+		<Key android:codes="0x2639" android:keyLabel="\u2639"/>
+		<Key android:codes="0x263a" android:keyLabel="\u263a"/>
+		<Key android:codes="0x263b" android:keyLabel="\u263b" android:keyEdgeFlags="right"/>
+	</Row>
+	<Row>
+		<Key android:codes="0x263c" android:keyLabel="\u263c" android:keyEdgeFlags="left"/>
+		<Key android:codes="0x263d" android:keyLabel="\u263d"/>
+		<Key android:codes="0x263e" android:keyLabel="\u263e"/>
+		<Key android:codes="0x263f" android:keyLabel="\u263f"/>
+		<Key android:codes="0x2640" android:keyLabel="\u2640"/>
+		<Key android:codes="0x2641" android:keyLabel="\u2641"/>
+		<Key android:codes="0x2642" android:keyLabel="\u2642"/>
+		<Key android:codes="0x2643" android:keyLabel="\u2643"/>
+		<Key android:codes="0x2644" android:keyLabel="\u2644"/>
+		<Key android:codes="0x2645" android:keyLabel="\u2645" android:keyEdgeFlags="right"/>
+	</Row>
+	<Row>
+		<Key android:codes="0x2654" android:keyLabel="\u2654" android:keyEdgeFlags="left"/>
+		<Key android:codes="0x2655" android:keyLabel="\u2655"/>
+		<Key android:codes="0x2656" android:keyLabel="\u2656"/>
+		<Key android:codes="0x2657" android:keyLabel="\u2657"/>
+		<Key android:codes="0x2658" android:keyLabel="\u2658"/>
+		<Key android:codes="0x2659" android:keyLabel="\u2659"/>
+		<Key android:codes="0x265A" android:keyLabel="\u265a"/>
+		<Key android:codes="0x265B" android:keyLabel="\u265b"/>
+		<Key android:codes="0x265C" android:keyLabel="\u265c"/>
+		<Key android:codes="0x265D" android:keyLabel="\u265d" android:keyEdgeFlags="right"/>
+	</Row>
+	<Row>
+		<Key android:codes="0x265E" android:keyLabel="\u265e" android:keyEdgeFlags="left"/>
+		<Key android:codes="0x265F" android:keyLabel="\u265f"/>
+		<Key android:codes="0x2660" android:keyLabel="\u2660"/>
+		<Key android:codes="0x2661" android:keyLabel="\u2661"/>
+		<Key android:codes="0x2662" android:keyLabel="\u2662"/>
+		<Key android:codes="0x2663" android:keyLabel="\u2663"/>
+		<Key android:codes="0x2664" android:keyLabel="\u2664"/>
+		<Key android:codes="0x2665" android:keyLabel="\u2665"/>
+		<Key android:codes="0x2666" android:keyLabel="\u2666"/>
+		<Key android:codes="0x2667" android:keyLabel="\u2667" android:keyEdgeFlags="right"/>
+	</Row>
+	<Row>
+        <Key android:codes="0x2668" android:keyLabel="\u2668" android:keyEdgeFlags="left"/>
+        <Key android:codes="0x2669" android:keyLabel="\u2669"/>
+        <Key android:codes="0x266A" android:keyLabel="\u266A"/>
+        <Key android:codes="0x266B" android:keyLabel="\u266B"/>
+        <Key android:codes="0x266C" android:keyLabel="\u266C"/>
+        <Key android:codes="0x266D" android:keyLabel="\u266D"/>
+        <Key android:codes="0x266E" android:keyLabel="\u266E"/>
+		<Key android:codes="0x266F" android:keyLabel="\u266F"/>
+		<Key android:codes="0x2670" android:keyLabel="\u2670"/>
+        <Key android:codes="0x2671" android:keyLabel="\u2671" android:keyEdgeFlags="right"/>
+    </Row>
+</Keyboard>
